@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.uno, .due {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+p.uno {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+p.due {
+  background-color: #3c0909;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+p.uno:hover, p.due:hover {
+  font-size: 23px;
+  padding: 23px;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+#significato {
+  color: #714d4b;
+  font-size: 15px;
+  padding-top: 15px;
+  text-decoration: underline;
+}
